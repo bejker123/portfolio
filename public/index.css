@@ -8,6 +8,11 @@ body{
 a{
   text-decoration: none;
   color:#89b4fa;
+  transition: 0.4s;
+}
+
+a:hover{
+  color: #1e66f5;
 }
 
 .main{
@@ -15,7 +20,7 @@ a{
   text-align:center;
   background-color: #11111b;
   width: 35%;
-  transform: translate(100%,0);
+  transform: translate(94%,0);
   border-radius: 25%;
   padding: 2% 0;
 }
@@ -27,3 +32,18 @@ a{
 .profile-pic img{
   border-radius: 50%;
 }
+
+/* .footer{ */
+/*   text-align: center; */
+/*   background-color: #11111b; */
+/*   position: absolute; */
+/*   bottom: 0; */
+/*   width: 100%; */
+/*   padding: 0.1% 0; */
+/*   opacity: 0.5; */
+/*   transition: 0.4s; */
+/* } */
+/**/
+/* .footer:hover{ */
+/*   opacity: 0.9; */
+/* } */
